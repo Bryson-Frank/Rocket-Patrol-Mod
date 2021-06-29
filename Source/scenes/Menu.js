@@ -9,10 +9,12 @@ class Menu extends Phaser.Scene {
         this.load.audio('sfx_select', './Assets/blip_select12.wav');
         this.load.audio('sfx_explosion', './Assets/explosion38.wav');
         this.load.audio('sfx_rocket', './Assets/rocket_shot.wav');
+        this.load.image('title', './Assets/Title.jpg');
     }
     create() {
 
-        let menuConfig = {
+        this.add.image(0, 0, 'title').setOrigin(0, 0);
+        /*let menuConfig = {
             fontFamily: 'Courier',
             fontSize: '28px',
             backgroundColor: '#f3b141',
@@ -29,7 +31,7 @@ class Menu extends Phaser.Scene {
         menuConfig.backgroundColor = '#00FF00';
         menuConfig.color = '#000';
         this.add.text(game.config.width/2, game.config.height/2 + (borderUISize + borderPadding), 'Press ← for Novice or → for Expert', menuConfig).setOrigin(0.5);
-    
+        */
         keyLEFT = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.LEFT);
         keyRIGHT = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.RIGHT);
     }
