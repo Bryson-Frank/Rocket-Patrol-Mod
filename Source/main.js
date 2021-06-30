@@ -4,9 +4,26 @@ Name: Bryson Frank
 
 Project: Rocket Patrol Mod
 
-Date: 6/25/21
+Date: 6/30/21
 
-Time: 6 + 3 + 
+Time: 12 hours
+
+---------------------------------------------------------------------------
+                            Point Breakdows
+--------------------------------------------------------------------------- 
+Base game                                                         20
+
+Redesign the game's artwork, UI, and sound to change 
+its theme/aesthetic (to something other than sci-fi)            + 60
+
+Create a new spaceship type (w/ new artwork) that's 
+smaller, moves faster, and is worth more points                 + 20
+                                                               ------
+                                                                 100
+---------------------------------------------------------------------------
+
+Audio made with Audacity
+Base game tutorial and help - Professor Isaac Karth
 
 /////////////////////////////////////////////////////////////////////////*/
 
